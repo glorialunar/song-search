@@ -53,7 +53,7 @@ const FormContainer = styles.form`
         padding: 0.5rem;
         border-radius: 10px;
         border: none;
-        background: black;
+        background: #FFB200;
         color: white;
     }
 
@@ -61,12 +61,17 @@ const FormContainer = styles.form`
         color: white;
     }
 
+    input:focus{
+        background: #FFCB42;
+    }
+
     input[type= "submit"]{
         width: 5rem;
         margin: 0.5rem auto;
+        background: #277BC0;
     }
 
-    // @media(min-width: 600px){
-    //     max-width: 80%;
-    // }
+    input[type= "submit"]:hover{
+        background: #277BC099;
+    }
 `
