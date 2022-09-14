@@ -14,7 +14,8 @@ export default Message;
 
 const MessageContainer = styles.div`
     width: 70%;
-    margin: 5rem auto;
+    height: 10%;
+    margin-top: 2rem;
     background: #dc3545;
     font-weight: bold;
     color: #fff;

@@ -25,4 +25,17 @@ const SongArtistContainer = styles.section`
         width: 90vw;
         border-radius: 10px;
     }
+
+    @media(min-width: 550px){
+        img{
+            max-width: 400px;
+        }
+    }
+
+    @media(min-width: 850px){
+        margin: 0 2rem;
+        img{
+            max-width: 400px;
+        }
+    }
 `

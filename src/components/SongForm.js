@@ -74,4 +74,8 @@ const FormContainer = styles.form`
     input[type= "submit"]:hover{
         background: #277BC099;
     }
+
+    @media(min-width: 850px){
+        width: 765px;
+    }
 `
