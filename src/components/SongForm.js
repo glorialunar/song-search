@@ -43,6 +43,8 @@ function SongForm({handleSearch}) {
 export default SongForm;
 
 const FormContainer = styles.form`
+    background: #FFB200;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
     width: 90vw;
@@ -53,12 +55,6 @@ const FormContainer = styles.form`
         padding: 0.5rem;
         border-radius: 10px;
         border: none;
-        background: #FFB200;
-        color: white;
-    }
-
-    input::placeholder{
-        color: white;
     }
 
     input:focus{
@@ -69,6 +65,7 @@ const FormContainer = styles.form`
         width: 5rem;
         margin: 0.5rem auto;
         background: #277BC0;
+        color: #FFF;
     }
 
     input[type= "submit"]:hover{

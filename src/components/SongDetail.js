@@ -38,6 +38,4 @@ const SongDetailsContainer = styles.div`
         display: flex;
         justify-content: center;
     }
-    
-
 `

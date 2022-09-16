@@ -21,6 +21,14 @@ export default SongArtist;
 const SongArtistContainer = styles.section`
     margin: 2rem 0;
 
+    a{
+        color: #000;
+        text-decoration: none;
+        background: #FFB200;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+
     img{
         width: 90vw;
         border-radius: 10px;

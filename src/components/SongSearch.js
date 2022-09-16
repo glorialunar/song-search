@@ -46,12 +46,12 @@ function SongSearch() {
     }, [search])
 
     return (
-        <div>
+        <>
             <h1>Song Search</h1>
             {loading && <Loader/>}
             <SongForm handleSearch={handleSearch}/>
             {search && !loading && <SongDetail search={search} lyric={lyric} bio={bio}/>}
-        </div>
+        </>
     )
 }
 
