@@ -13,11 +13,15 @@ const Message = ({msg}) => {
 export default Message;
 
 const MessageContainer = styles.div`
-    width: 70%;
+    width: 90vw;
     height: 10%;
-    margin-top: 2rem;
+    margin: 2rem auto;
     background: #dc3545;
     font-weight: bold;
     color: #fff;
-    padding: 1rem;
+    padding: 0.2rem;
+
+    @media(min-width: 850px){
+        width: 765px;
+    }
 `
